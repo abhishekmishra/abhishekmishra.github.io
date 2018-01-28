@@ -37,6 +37,9 @@ google_analytics: UA-98613593-1
 markdown: kramdown
 theme: jekyll-theme-minimal
 
+paginate: 1
+paginate_path: "/page/:num/"
+
 gems:
   - jekyll-feed
 exclude:
