@@ -13,8 +13,8 @@
     <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
-      <header>
+    <div class="wrapper outer">
+      <header class="inner">
         <!--
         <h1 class="header"><a href="https://abhishekmishra.github.io/">{{ site.title }}</a></h1>
         <p class="header">{{ site.description }}</p>
@@ -25,13 +25,20 @@
         
       </header>
 
-      <section>
-        {{ content }}
+      <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <section>
+          {{ content }}
+        </section>
       </section>
+    </div>
 
-      <footer>
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
         <p><small>© 2016 Abhishek Mishra</small></p>
       </footer>
+      </div>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     {% if site.google_analytics %}
