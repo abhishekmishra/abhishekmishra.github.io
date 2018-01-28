@@ -35,7 +35,7 @@ google_analytics: UA-98613593-1
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: jekyll-theme-midnight
 
 paginate: 1
 paginate_path: "/page/:num/"
