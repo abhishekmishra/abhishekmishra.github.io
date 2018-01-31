@@ -5,7 +5,7 @@ date:   2018-01-31 09:15:00 +0530
 categories: turtle graphics
 ---
 
-This week I started exploring turtle graphics with my son as he is very interested in drawing and crafts (he call his room "art room"). We wrote one program together in python's turtle graphics library. It's here - [face.py] , and this is what it looks like :)
+This week I started exploring turtle graphics with my son as he is very interested in drawing and crafts (he calls his room "art room"). We wrote one program together in python's turtle graphics library. It's here - [face.py] , and this is what it looks like :)
 
 <a href="http://i.imgur.com/5Ozcg2S.png">
   <img src="http://imgur.com/5Ozcg2Sl.png" />
