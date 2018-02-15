@@ -1,13 +1,3 @@
-# Ubuntu installation and prep for GCP + Docker Run
-
-## VirtualBox Guest Config
-
-Config suggested for guest:
-1. Min Disk: 30GB
-2. RAM: 2GB
-3. LVM Partitioning
-4. Xubuntu desktop installer
-
 ---
 layout: post
 title:  "Install gcloud-sdk and Docker on Ubuntu 16.04 on VirtualBox"
