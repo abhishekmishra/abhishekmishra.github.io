@@ -85,4 +85,4 @@ Use this gist to setup multiple keys if required.
 [Github multiple ssh keys](https://gist.github.com/jexchan/2351996)
 
 ## Copy the VM before using it
-Take a backup of the VM folder if you have space, so that you don't need to go through the deployment again. You can just start from a clean copy where all tools are setup.
+Take a backup of the VM folder if you have space, so that you don't need to go through these steps again. You can just start from a clean copy where all tools are setup.
