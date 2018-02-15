@@ -5,17 +5,25 @@ date:   2018-01-31 09:15:00 +0530
 categories: gcloud-sdk docker ubuntu virtualbox
 ---
 
-## Installing gcloud-sdk and Docker on Ubuntu 16.04 on VirtualBox
+# Installing gcloud-sdk and Docker on Ubuntu 16.04 on VirtualBox
 
-## VirtualBox Guest Config
+## Get VirtualBox
+
+[Download VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+
+## Install Ubuntu on VirtualBox
+
+Get Xubuntu 16.04 ISO. Xubuntu is lightweight and provides a standard desktop. Ubuntu or other flavours should also work.
+
+[Download Xubuntu LTS](https://xubuntu.org/download#lts)
+
+### VirtualBox Guest Config
 
 Config suggested for guest:
 1. Min Disk: 30GB
 2. RAM: 2GB
 3. LVM Partitioning
 4. Xubuntu desktop installer
-
-## Install Ubuntu on Virtualbox
 
 ## Post-install
 
@@ -44,7 +52,7 @@ sudo apt-get install aptitude vim emacs -y
 ```
 
 ## Install Docker
-Install instructions are here https://docs.docker.com/install/linux/docker-ce/ubuntu/
+Install instructions are here [Installl Docker CE on Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
 ## Install gcloud-sdk
-Install instructions are here https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu
+Install instructions are here [Install gcloud-sdk on Ubuntu](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
