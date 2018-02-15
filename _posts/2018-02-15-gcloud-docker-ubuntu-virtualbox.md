@@ -56,9 +56,33 @@ sudo apt-get install aptitude vim emacs -y
 ## Install Docker
 Install instructions are here [Installl Docker CE on Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
+### Run docker as user
+Add current user to docker group, and verify that it works
+
+```
+sudo usermod -aG docker $USER
+```
+
+Reboot ubuntu for changes to take effect.
+
+```
+sudo reboot
+```
+
+Verify that the changes work
+
+```
+docker run hello-world
+```
+
+See [Post-install step for linux](https://docs.docker.com/install/linux/linux-postinstall/) for further details.
+
 ## Install gcloud-sdk
 Install instructions are here [Install gcloud-sdk on Ubuntu](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
 
 ## SSH/github setup
 Use this gist to setup multiple keys if required.
 [Github multiple ssh keys](https://gist.github.com/jexchan/2351996)
+
+## Copy the VM before using it
+Take a backup of the VM folder if you have space, so that you don't need to go through the deployment again. You can just start from a clean copy where all tools are setup.
