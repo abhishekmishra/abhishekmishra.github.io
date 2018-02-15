@@ -77,6 +77,10 @@ docker run hello-world
 
 See [Post-install step for linux](https://docs.docker.com/install/linux/linux-postinstall/) for further details.
 
+### (Optional) Install Docker Compose
+
+See instructions at [Install Docker Compose for Linux](https://docs.docker.com/compose/install/#install-compose)
+
 ## Install gcloud-sdk
 Install instructions are here [Install gcloud-sdk on Ubuntu](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
 
