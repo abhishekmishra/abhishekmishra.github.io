@@ -58,3 +58,7 @@ Install instructions are here [Installl Docker CE on Ubuntu](https://docs.docker
 
 ## Install gcloud-sdk
 Install instructions are here [Install gcloud-sdk on Ubuntu](https://cloud.google.com/sdk/docs/quickstart-debian-ubuntu)
+
+## SSH/github setup
+Use this gist to setup multiple keys if required.
+[Github multiple ssh keys](https://gist.github.com/jexchan/2351996)
