@@ -5,7 +5,9 @@ date:   2018-01-31 09:15:00 +0530
 categories: gcloud-sdk docker ubuntu virtualbox
 ---
 
-# Installing gcloud-sdk and Docker on Ubuntu 16.04 on VirtualBox
+I use Windows 10 Home on my laptop, so docker integration is a challenge, espescially running all the builds written in shell scripts won't run nicely on Ubuntu on Windows or MSYS2.
+
+So I've had to fallback on installing ubuntu on virtualbox, with docker and gcloud-sdk. I've documented the steps below.
 
 ## Get VirtualBox
 
