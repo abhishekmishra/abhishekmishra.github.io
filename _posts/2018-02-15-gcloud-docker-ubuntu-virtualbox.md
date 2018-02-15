@@ -88,5 +88,13 @@ Install instructions are here [Install gcloud-sdk on Ubuntu](https://cloud.googl
 Use this gist to setup multiple keys if required.
 [Github multiple ssh keys](https://gist.github.com/jexchan/2351996)
 
+## (Optional) Install nodejs using package manager
+
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+For details see instructions at [Install nodejs via package manager](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+
 ## Copy the VM before using it
 Take a backup of the VM folder if you have space, so that you don't need to go through these steps again. You can just start from a clean copy where all tools are setup.
